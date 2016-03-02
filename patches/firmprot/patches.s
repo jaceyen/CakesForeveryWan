@@ -1,12 +1,8 @@
 .arm.little
 
+; Credit to AuroraWright and delebile
 .create "patch1.bin"
 .thumb
 mov r0, #0
-.close
-
-.create "patch2.bin"
-.thumb
-mov r0, #0
-bx lr
+nop
 .close
